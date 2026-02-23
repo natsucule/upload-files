@@ -49,3 +49,14 @@ curl --location 'https://soa-skb.viva.com.kw/DigitalService/ProxyServices/Busine
 --header 'SerialNo: 21212122' \
 --header 'TransactionId: 1' \
 --header 'Version: 1'
+
+
+curl --location 'https://ssoprod.stc.com.kw/oauth2/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic c3Bwb3M6U1RDcWF6d3N4QDEyMw==' \
+--data-urlencode 'client_id=fku42baOBqxUcJdvMZBRHA6HCwMa' \
+--data-urlencode 'client_secret=RcaWuw_IwOhMefzEIs32mDGkUA0a' \
+--data-urlencode 'grant_type=password' \
+--data-urlencode 'username=XXXX' \
+--data-urlencode 'password=XXXX' \
+--data-urlencode 'scope=openid'
