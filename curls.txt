@@ -33,3 +33,19 @@ curl --location 'https://soa.viva.com.kw/DigitalService/CustomerRestService/cust
 --header 'SerialNo: 21212122' \
 --header 'TransactionId: 1' \
 --header 'Version: 1'
+
+
+curl --location 'https://soa-skb.viva.com.kw/DigitalService/ProxyServices/BusinessEstoreRestService/productOffering?offset=0&limit=50&channel.name=Dealer&status=Launched' \
+--header 'Authorization: Basic c3Bwb3M6U1RDcWF6d3N4QDEyMw==' \
+--header 'Content-Type: application/json' \
+--header 'Accept-Language: en' \
+--header 'BusinessProcessId: productOffering' \
+--header 'CreationTimeStamp: 20200518104100' \
+--header 'DeliveryChannelType: DEALERAPP' \
+--header 'OperatorId: 1025' \
+--header 'RequestType: Event' \
+--header 'SenderHostName: 127.0.0.1' \
+--header 'SequenceId: 1' \
+--header 'SerialNo: 21212122' \
+--header 'TransactionId: 1' \
+--header 'Version: 1'
