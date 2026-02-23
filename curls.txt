@@ -19,3 +19,17 @@ curl --location 'https://stc-devapi-salespoint.leading-point.org/DigitalService/
   "authReasonEn": "Testing 122",
   "authReasonAr": "التحقق من العميل"
 }'
+
+curl --location 'https://soa.viva.com.kw/DigitalService/CustomerRestService/customer/v1/mobileIdRequestInfo/22d6b1e4-7770-4d0b-b662-786de3db3c47' \
+--header 'Accept-Language: en' \
+--header 'Authorization: Basic c3Bwb3M6U1RDcWF6d3N4QDEyMw==' \
+--header 'BusinessProcessId: getMobileIdRequestInfo' \
+--header 'Content-Type: application/json' \
+--header 'CreationTimeStamp: 20200518104100' \
+--header 'DeliveryChannelType: SPPOS' \
+--header 'RequestType: Event' \
+--header 'SenderHostName: 127.0.0.1' \
+--header 'SequenceId: 1' \
+--header 'SerialNo: 21212122' \
+--header 'TransactionId: 1' \
+--header 'Version: 1'
